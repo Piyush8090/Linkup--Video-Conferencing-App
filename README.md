@@ -218,27 +218,12 @@ flutter run
 
 ## 📱 Screenshots
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/efb5d10d-2298-43cf-bd54-8c3da31bbf13" width="250"/>
-  <img src="https://github.com/user-attachments/assets/10e47867-8e71-4124-a285-b1bc6d5c1921" width="250"/>
-  <img src="https://github.com/user-attachments/assets/505065b6-59f9-4071-ac1d-161340b685e0" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cedebc52-12bc-4686-a3f6-d77bc5994283" width="250"/>
-  <img src="https://github.com/user-attachments/assets/5b69de5b-908b-4237-a4c7-32012a08f421" width="250"/>
-  <img src="https://github.com/user-attachments/assets/80bcf032-f90d-4330-af2d-03f6bd199f66" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b077910e-a5b3-466d-8a43-7049a98ab817" width="250"/>
-  <img src="https://github.com/user-attachments/assets/30cc4210-e130-4bd0-802f-92844e5574db" width="250"/>
-  <img src="https://github.com/user-attachments/assets/9352fb19-e6cf-4563-bc23-afef033fb823" width="250"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/beda5d1b-ffa0-466a-af2e-2d28480c3095" width="250"/>
-</p>
+| | | |
+|---|---|---|
+| <img src="https://github.com/user-attachments/assets/efb5d10d-2298-43cf-bd54-8c3da31bbf13" width="220"/> | <img src="https://github.com/user-attachments/assets/10e47867-8e71-4124-a285-b1bc6d5c1921" width="220"/> | <img src="https://github.com/user-attachments/assets/505065b6-59f9-4071-ac1d-161340b685e0" width="220"/> |
+| <img src="https://github.com/user-attachments/assets/cedebc52-12bc-4686-a3f6-d77bc5994283" width="220"/> | <img src="https://github.com/user-attachments/assets/5b69de5b-908b-4237-a4c7-32012a08f421" width="220"/> | <img src="https://github.com/user-attachments/assets/80bcf032-f90d-4330-af2d-03f6bd199f66" width="220"/> |
+| <img src="https://github.com/user-attachments/assets/b077910e-a5b3-466d-8a43-7049a98ab817" width="220"/> | <img src="https://github.com/user-attachments/assets/30cc4210-e130-4bd0-802f-92844e5574db" width="220"/> | <img src="https://github.com/user-attachments/assets/9352fb19-e6cf-4563-bc23-afef033fb823" width="220"/> |
+| <img src="https://github.com/user-attachments/assets/beda5d1b-ffa0-466a-af2e-2d28480c3095" width="220"/> |  |  |
 
 
 ---
