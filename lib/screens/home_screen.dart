@@ -29,6 +29,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   List<Map<String, dynamic>> _notifications = [];
   int _unreadCount = 0;
+  int _totalMeetingCount = 0;
   RealtimeChannel? _notifChannel;
 
   final TextEditingController _meetingIdController = TextEditingController();
@@ -73,7 +74,6 @@ class HomeScreenState extends State<HomeScreen> {
 Future<void> _loadMeetings() async {
   if (userId == null) return;
   try {
-    // UPCOMING: sirf scheduled + future + active
     final scheduled = await supabase
         .from('meetings')
         .select()
@@ -81,29 +81,35 @@ Future<void> _loadMeetings() async {
         .eq('is_active', true)
         .not('scheduled_at', 'is', null)
         .gte('scheduled_at',
-            DateTime.now().subtract(const Duration(hours: 1)).toIso8601String())
+            DateTime.now().subtract(const Duration(minutes: 15)).toIso8601String())
         .order('scheduled_at', ascending: true);
 
-    // HISTORY: sirf instant meetings (scheduled_at null) + ended (is_active false)
     final history = await supabase
-    .from('meetings')
-    .select()
-    .eq('host_id', userId!)
-    .eq('is_active', false)
-    .eq('show_in_recent', true)        
-    .filter('scheduled_at', 'is', null)
-    .order('created_at', ascending: false)
-    .limit(5);
+        .from('meetings')
+        .select()
+        .eq('host_id', userId!)
+        .eq('is_active', false)
+        .filter('scheduled_at', 'is', null)
+        .order('created_at', ascending: false)
+        .limit(5);
+
+    // Total count for stats pill
+    final totalCount = await supabase
+        .from('meetings')
+        .select('id')
+        .eq('host_id', userId!)
+        .eq('is_active', false)
+        .filter('scheduled_at', 'is', null);
 
     setState(() {
       scheduledMeetings = List<Map<String, dynamic>>.from(scheduled);
       meetingHistory = List<Map<String, dynamic>>.from(history);
+      _totalMeetingCount = (totalCount as List).length;
     });
   } catch (e) {
     debugPrint('Load meetings error: $e');
   }
 }
-
   Future<void> _loadNotifications() async {
     if (userId == null) return;
     try {
@@ -1712,7 +1718,7 @@ Future<void> _enterWaitingRoom({
             children: [
               _statPill(
                 Icons.videocam_rounded,
-                '${meetingHistory.length}',
+                '$_totalMeetingCount',
                 'Meetings',
               ),
               const SizedBox(width: 10),
