@@ -218,18 +218,27 @@ flutter run
 
 ## 📱 Screenshots
 
-<img width="283" height="598" alt="image" src="https://github.com/user-attachments/assets/efb5d10d-2298-43cf-bd54-8c3da31bbf13" />
-<img width="280" height="589" alt="image" src="https://github.com/user-attachments/assets/10e47867-8e71-4124-a285-b1bc6d5c1921" />
-<img width="281" height="597" alt="image" src="https://github.com/user-attachments/assets/505065b6-59f9-4071-ac1d-161340b685e0" />
-<img width="283" height="413" alt="image" src="https://github.com/user-attachments/assets/cedebc52-12bc-4686-a3f6-d77bc5994283" />
-<img width="278" height="597" alt="image" src="https://github.com/user-attachments/assets/5b69de5b-908b-4237-a4c7-32012a08f421" />
-<img width="283" height="591" alt="image" src="https://github.com/user-attachments/assets/80bcf032-f90d-4330-af2d-03f6bd199f66" />
-<img width="280" height="594" alt="image" src="https://github.com/user-attachments/assets/b077910e-a5b3-466d-8a43-7049a98ab817" />
-<img width="275" height="588" alt="image" src="https://github.com/user-attachments/assets/30cc4210-e130-4bd0-802f-92844e5574db" />
-<img width="277" height="602" alt="image" src="https://github.com/user-attachments/assets/9352fb19-e6cf-4563-bc23-afef033fb823" />
-<img width="284" height="592" alt="image" src="https://github.com/user-attachments/assets/beda5d1b-ffa0-466a-af2e-2d28480c3095" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/efb5d10d-2298-43cf-bd54-8c3da31bbf13" width="250"/>
+  <img src="https://github.com/user-attachments/assets/10e47867-8e71-4124-a285-b1bc6d5c1921" width="250"/>
+  <img src="https://github.com/user-attachments/assets/505065b6-59f9-4071-ac1d-161340b685e0" width="250"/>
+</p>
 
- 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cedebc52-12bc-4686-a3f6-d77bc5994283" width="250"/>
+  <img src="https://github.com/user-attachments/assets/5b69de5b-908b-4237-a4c7-32012a08f421" width="250"/>
+  <img src="https://github.com/user-attachments/assets/80bcf032-f90d-4330-af2d-03f6bd199f66" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b077910e-a5b3-466d-8a43-7049a98ab817" width="250"/>
+  <img src="https://github.com/user-attachments/assets/30cc4210-e130-4bd0-802f-92844e5574db" width="250"/>
+  <img src="https://github.com/user-attachments/assets/9352fb19-e6cf-4563-bc23-afef033fb823" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/beda5d1b-ffa0-466a-af2e-2d28480c3095" width="250"/>
+</p>
 
 
 ---
@@ -267,8 +276,8 @@ flutter run
 
 ## 👨‍💻 Author
 
-**Arpit Upadhyay**  
-**Satyendra Kumar**
+**Arpit Upadhyay** & **Satyendra Kumar**
+
 BCA VIth Semester — The Study Hall College, Lucknow  
 University of Lucknow
 
